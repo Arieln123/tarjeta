@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    background-image: url(images/images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ .container{
+         position: absolute;
+        
+        width: 430px;
+        height: 600px;
+        top:15%;
+        left: 40%;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid black;
+        
+ }
+ .img{
+     width: 100%;
+    height: 100%;
+ }
+ .cointainer2{
+    text-align: center;
+
+ }
+.text p{
+    text-align: center;
+    padding:0 70px 0 70px;
+
+}
+ .text h2{
+    padding: 30px;
+    text-align: center;
+ }
+
+.pago{
+    position: absolute;
+    background-color:grey;
+    border-radius: 15px;
+    bottom: 140px;
+    left: 50px;
+
+}
+.pago>*{
+    
+    border-radius: 10px;
+    display: inline-block;
+}
+.icon {
+    position:relative;
+    float: left;
+}
+.pago a{
+    display: relative;
+    float: right;
+}
+.btm{
+    position:absolute;
+    bottom: 40px;
+    right: 60px;
+    background-color: lightskyblue;
+    width: 250px;
+     margin: 30px;
+     border-radius: 10px;
+}
+.cancel{
+
+    position: absolute;
+    bottom:20px;
+    right:200px;
+    background-color: gray;
+}
+
